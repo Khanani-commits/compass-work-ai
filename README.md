@@ -1,465 +1,148 @@
 # WorkPilot AI
 
-Build WorkPilot AI — AI-Powered Workplace Productivity Assistant
-
-Build a modern, professional, responsive AI-powered workplace productivity web application called WorkPilot AI.
-
-WorkPilot AI is an intelligent workplace assistant designed to help professionals turn meetings and work requirements into clear action items, prioritized tasks, schedules, and professional communication.
-
-The application must feel like a real SaaS productivity product, not a basic AI demo. Focus heavily on usability, polished UI/UX, practical workplace value, strong prompt engineering, and responsible AI.
-
-Core Concept
-
-WorkPilot AI should provide one integrated workflow:
-
-Meeting Notes → Action Items → Prioritized Tasks → Schedule → Professional Email
-
-The application must contain these 3 core AI features:
-
-1. AI Meeting Notes Summarizer
-
-Allow users to paste or enter long meeting notes.
-
-The AI should analyze the notes and produce a structured summary containing:
-
-Executive summary
-
-Key discussion points
-
-Decisions made
-
-Action items
-
-Person responsible for each action item
-
-Deadlines mentioned
-
-Important follow-ups
-
-Unresolved issues
-
-The output should be clearly organized into cards or sections rather than one large block of text.
-
-Include buttons to:
-
-Copy summary
-
-Edit output
-
-Regenerate
-
-Clear input
-
-The AI should avoid inventing information that is not contained in the meeting notes.
-
-2. AI Task Planner & Scheduler
-
-Allow users to enter multiple tasks, projects, deadlines, and priorities.
-
-The AI should intelligently:
-
-Identify and organize tasks
-
-Prioritize tasks based on urgency and importance
-
-Identify deadlines
-
-Estimate reasonable task durations
-
-Break large tasks into smaller steps
-
-Recommend an order for completing tasks
-
-Create a practical daily or weekly schedule
-
-Identify potential scheduling conflicts
-
-Suggest what the user should focus on first
-
-Allow users to specify:
-
-Available working hours
-
-Task deadlines
-
-Priority level
-
-Estimated duration
-
-Preferred working days
-
-Display the generated plan visually using:
-
-Priority cards
-
-Task lists
-
-Timeline/schedule view
-
-Daily and weekly views
-
-Include options to:
-
-Edit tasks
-
-Mark tasks as completed
-
-Regenerate the schedule
-
-Reprioritize tasks
-
-Clear the planner
-
-The AI should provide explanations for why certain tasks were prioritized.
-
-3. Smart Email Generator
-
-Create an AI-powered professional email generator.
-
-Users should be able to enter:
-
-Purpose of the email
-
-Recipient/context
-
-Key points they want to communicate
-
-Desired tone
-
-Optional deadline or call to action
-
-Provide tone options including:
-
-Formal
-
-Professional
-
-Friendly
-
-Persuasive
-
-Concise
-
-The AI should generate a professional email with:
-
-Appropriate subject line
-
-Clear introduction
-
-Well-structured body
-
-Appropriate call to action
-
-Professional closing
-
-Users must be able to:
-
-Edit the generated email
-
-Copy the email
-
-Regenerate it
-
-Change the tone
-
-Make it shorter
-
-Make it more professional
-
-The AI should preserve the user's intended meaning and should not invent facts, names, dates, or commitments.
-
-Dashboard Design
-
-Create a professional SaaS-style dashboard.
-
-The main dashboard should contain:
-
-Sidebar Navigation
-
-Include:
-
-Dashboard
-
-Meeting Summarizer
-
-Task Planner
-
-Email Generator
-
-Activity/History
-
-Settings
-
-Include the WorkPilot AI logo/name at the top of the sidebar.
-
-Main Dashboard
-
-Create a welcoming dashboard with:
-
-"Good morning 👋 What would you like to accomplish today?"
-
-Display productivity overview cards such as:
-
-Tasks completed
-
-Tasks remaining
-
-Upcoming deadlines
-
-Meetings processed
-
-Also include three prominent feature cards:
-
-Summarize a Meeting
-Turn meeting notes into structured action items.
-
-Plan Your Work
-Prioritize tasks and generate an efficient schedule.
-
-Write an Email
-Create professional emails in seconds.
-
-Include a "Recent Activity" section showing recently generated summaries, schedules, and emails.
-
-AI Prompt Engineering
-
-Use structured prompts behind each AI feature.
-
-Prompts should clearly define:
-
-Role
-
-Task
-
-Context
-
-User input
-
-Constraints
-
-Desired output format
-
-The AI responses should be structured, consistent, concise, and workplace appropriate.
-
-Do not simply send raw user input to the AI.
-
-For example, the meeting summarizer should internally instruct the AI to act as a professional meeting assistant and return information in clearly defined categories such as:
-
-Summary
-
-Decisions
-
-Action Items
-
-Deadlines
-
-Follow-ups
-
-Apply similarly structured prompt logic to the Task Planner and Email Generator.
-
-User Experience
-
-Make the application extremely easy to use.
-
-Every feature should follow this pattern:
-
-Input → AI Processing → Structured Output → Edit → Copy/Save
-
-Use clear:
-
-Input fields
-
-Dropdowns
-
-Buttons
-
-Cards
-
-Tabs
-
-Status indicators
-
-Loading states
-
-Empty states
-
-Error messages
-
-Success notifications
-
-AI-generated content should always be editable before the user uses it.
-
-Responsive Design
-
-The application must work beautifully on:
-
-Desktop
-
-Laptop
-
-Tablet
-
-Mobile
-
-On smaller screens, the sidebar should transform into a mobile-friendly navigation menu.
-
-Ensure that text, cards, forms, buttons, and AI outputs remain readable and usable on all screen sizes.
-
-Visual Design
-
-Use a clean, modern, premium SaaS aesthetic.
-
-The design should communicate:
-
-Productivity
-
-Intelligence
-
-Trust
-
-Professionalism
-
-Simplicity
-
-Use:
-
-Modern typography
-
-Consistent spacing
-
-Rounded cards
-
-Subtle shadows
-
-Clean icons
-
-Clear visual hierarchy
-
-Professional dashboard components
-
-Smooth but subtle animations
-
-Avoid excessive gradients, unnecessary animations, clutter, or a generic chatbot appearance.
-
-WorkPilot AI should look like a real workplace productivity platform that could be presented to a company or potential employer.
-
-Responsible AI
-
-Include a clearly visible Responsible AI Disclaimer.
-
-The disclaimer should communicate that:
-
-AI-generated content may contain errors.
-
-Users should review AI outputs before using them professionally.
-
-Users should not enter confidential, sensitive, or personal company information.
-
-AI recommendations are suggestions and should not replace professional judgment.
-
-Include this disclaimer in the application footer and/or relevant AI feature pages.
-
-Error Handling & Reliability
-
-Include appropriate states for:
-
-Empty input
-
-Invalid input
-
-AI processing/loading
-
-AI generation failure
-
-Missing information
-
-No tasks available
-
-No previous activity
-
-Show helpful messages rather than technical errors.
-
-History
-
-Create an Activity/History page where users can view previously generated:
-
-Meeting summaries
-
-Task plans
-
-Emails
-
-Allow users to open, edit, copy, or delete previous outputs.
-
-Final Product Requirements
-
-The final application must:
-
-Be a single integrated platform
-
-Have a polished professional dashboard
-
-Include the 3 required AI features
-
-Have functional navigation
-
-Have responsive design
-
-Have structured AI inputs and outputs
-
-Allow users to edit AI-generated content
-
-Include loading and error states
-
-Include history/activity
-
-Include responsible AI messaging
-
-Demonstrate strong prompt engineering
-
-Feel practical and useful in a real workplace
-
-Most Important Product Principle
-
-Do not build three disconnected AI tools.
-
-Build one intelligent workplace workflow where WorkPilot AI helps a professional move from:
-
-"What happened in the meeting?"
-
-to
-
-"What needs to be done?"
-
-to
-
-"What should I do first?"
-
-to
-
-"How do I communicate it professionally?"
-
-The final result should be innovative, practical, visually impressive, intuitive, and presentation-ready.
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://compass-work-ai.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/6d00ab56-de02-4584-a3c5-a51263daca26).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
+An AI-powered workplace productivity assistant that turns raw meeting notes into structured action items, prioritized tasks, scheduled work blocks, and professional emails — all in one integrated workflow.
+
+## Project Overview
+
+WorkPilot AI is a modern SaaS-style application designed for busy professionals who need to convert unstructured workplace information into clear, actionable output. The assistant follows a logical productivity pipeline:
+
+**Meeting Notes → Action Items → Prioritized Tasks → Schedule → Professional Email**
+
+Whether you are preparing for a meeting, wrapping one up, or following up with stakeholders, WorkPilot AI helps you stay organized, save time, and communicate clearly.
+
+The app is built as a full-stack React application with server-side AI processing, a responsive dashboard, and client-side history management so users can revisit and reuse every generated result.
+
+## Features
+
+### 1. AI Meeting Notes Summarizer
+- Paste raw or messy meeting notes and get a structured summary.
+- Output includes:
+  - Executive summary
+  - Key discussion points
+  - Decisions made
+  - Action items with owners, deadlines, and priority
+  - Follow-ups and unresolved questions
+- Copy results to the clipboard with one click.
+- Continue the workflow by sending action items directly to the Task Planner.
+
+### 2. AI Task Planner & Scheduler
+- Enter a list of tasks, deadlines, and priorities to receive a realistic, time-boxed plan.
+- Supports daily and weekly planning horizons.
+- Considers working hours and preferred working days.
+- Generates:
+  - Prioritized task list with effort estimates
+  - Non-overlapping schedule blocks
+  - Conflict warnings
+  - Practical scheduling advice
+- Start the next step by drafting a professional update email from the plan.
+
+### 3. Smart Email Generator
+- Generate polished, professional emails from a purpose and key points.
+- Choose tone presets such as Professional, Friendly, Formal, Diplomatic, or Concise.
+- Adjust length and formality with one-click refinement controls.
+- Produces:
+  - Subject line
+  - Structured body with greeting, introduction, body, call to action, and closing
+  - Notes on placeholders or missing details
+
+### 4. Unified Dashboard
+- Time-of-day greeting and productivity overview.
+- Quick stats for tasks, deadlines, and upcoming actions.
+- One-click navigation to every AI tool.
+
+### 5. Activity History
+- Automatically saves every AI-generated summary, plan, and email to local storage.
+- Review, edit, copy, or delete previous results.
+- Resume work from any prior output without re-running the AI.
+
+### 6. Responsive Design
+- Optimized for desktop, tablet, and mobile.
+- Collapsible sidebar and mobile navigation menu.
+- Consistent professional styling across all screen sizes.
+
+### 7. Responsible AI
+- Built-in disclaimers remind users to review AI output before sharing.
+- Clear guidance on avoiding sensitive or confidential data.
+- Settings page for data management and preference controls.
+
+## Tools Used
+
+| Category | Technology |
+|----------|------------|
+| Framework | [TanStack Start](https://tanstack.com/start/) — full-stack React framework with file-based routing and server functions |
+| Language | TypeScript |
+| UI Library | React 19 |
+| Styling | Tailwind CSS v4 |
+| Components | shadcn/ui components |
+| AI Model | `google/gemini-2.5-flash` via the Lovable AI Gateway |
+| State Management | TanStack Query for server state |
+| Persistence | Browser `localStorage` for activity history |
+| Icons | Lucide React |
+| Font | Plus Jakarta Sans |
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js 18 or later
+- npm, pnpm, or bun
+- A Lovable AI Gateway API key (for AI features)
+
+### 1. Clone the repository
 ```sh
-git clone <this-repository-url>
+git clone <repository-url>
 cd <repository-name>
-npm i
+```
+
+### 2. Install dependencies
+```sh
+npm install
+```
+
+### 3. Configure environment variables
+Create a `.env` file in the project root and add the following:
+
+```env
+LOVABLE_API_KEY=your_lovable_api_key_here
+```
+
+This key is required for the AI summarizer, planner, and email generator to work.
+
+### 4. Start the development server
+```sh
 npm run dev
 ```
+
+The app will be available at `http://localhost:8080` by default.
+
+### 5. Build for production
+```sh
+npm run build
+```
+
+### 6. Run the production server
+```sh
+npm run start
+```
+
+## Project Structure
+
+```
+src/
+├── components/workpilot/    # Shared UI components and layout
+├── lib/                     # AI client, server functions, types, and utilities
+├── routes/                  # TanStack Start file-based routes
+├── styles.css               # Tailwind CSS v4 theme and design tokens
+└── server.ts                # SSR server entry wrapper
+```
+
+## Deployment
+
+This project is built on the Lovable platform and can be published directly from the Lovable editor. It can also be self-hosted by connecting the repository to GitHub and deploying to any platform that supports Node.js or edge runtimes.
+
+## Responsible AI Notice
+
+WorkPilot AI generates content using an AI model. Outputs are intended as drafts and should be reviewed for accuracy, tone, and confidentiality before being shared or acted upon. Do not paste sensitive personal, financial, or legally privileged information into the application unless you trust the deployment environment.
+
+---
+
+Built with [Lovable](https://lovable.dev).
